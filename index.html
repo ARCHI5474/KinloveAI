@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KinloveAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <div class="sidebar">
+
+        <button id="newChat">
+            ＋ 新しいチャットを開始
+        </button>
+
+        <div id="history"></div>
+
+    </div>
+
+    <div class="main">
+
+        <h1>KinloveAI(一般公開前のため、APIキーは設定されていません。チャットは利用できません。)</h1>
+
+        <div id="chat"></div>
+
+        <div class="input-area">
+            <input id="message">
+            <button onclick="sendMessage()">
+                送信
+            </button>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
